@@ -1,5 +1,5 @@
 # Applied-GenAI_Capstone-Project_Banking-Customer-Support-AI-Assistant-using-LangGraph
-An AI-powered Banking Customer Support Assistant built using LangGraph, Agentic AI, LLM-as-Judge Evaluation and Customer Intelligence Frameworks. The solution intelligently classifies customer requests, orchestrates specialized support workflows, manages ticket lifecycles and leverages customer context, memory, evaluation, analytics and monitoring capabilities to deliver personalized, accurate and high-quality customer support experiences.
+An AI-powered Banking Customer Support Assistant built using LangGraph and Agentic AI. The solution intelligently classifies customer requests, automates ticket workflows, leverages customer intelligence & conversational memory, uses LLM-based evaluation to deliver personalized, accurate and high-quality support experiences.
 
 # Project Summary
 The Banking Customer Support AI Assistant is an Agentic AI solution developed to automate customer support interactions within a banking environment. Built using a LangGraph-based multi-agent architecture, the solution combines intelligent query classification, workflow orchestration, ticket lifecycle management, customer intelligence generation, response evaluation and operational monitoring to deliver reliable and customer-centric support experiences.
