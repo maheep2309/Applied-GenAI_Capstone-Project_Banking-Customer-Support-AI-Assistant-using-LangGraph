@@ -17,35 +17,27 @@ To support governance and operational transparency, the application includes ded
 Overall, the project demonstrates how Agentic AI, workflow orchestration, customer intelligence, automated quality assurance and operational governance can be combined to create an intelligent banking support assistant capable of delivering personalized, accurate and continuously improving customer experiences.
 
 Agentic AI Concepts / Topics Covered
-- Agentic AI Workflow Orchestration using LangGraph
+- Agentic AI Workflow Orchestration (LangGraph)
 - Multi-Agent Architecture
 - Intelligent Query Classification
 - Dynamic Workflow Routing
-- Banking Ticket Lifecycle Management
-- Customer Inquiry Management
-- Positive & Negative Feedback Workflows
-- Customer Intelligence Framework
-- Customer Profiling & Personalization
-- Customer Sensitivity Assessment
-- Customer Communication Preference Analysis
-- Response Guidance Generation
+- Ticket Lifecycle Management
+- Customer Intelligence & Personalization
 - Context-Aware Response Generation
-- Stateful Conversations
+- Stateful Conversations & Memory
 - LangGraph State Management
-- Streamlit Session State Management
-- LangGraph Memory Persistence
-- SQLite Data Persistence
-- LLM-as-Judge Evaluation Framework
-- Reflection-Based Response Optimization
+- Session Management
+- SQLite Persistence
+- LLM-as-Judge Evaluation
+- Reflection-Based Self-Correction
 - Automated Quality Assurance
-- Intent Classification Test Case Validation
+- Intent Classification Testing
 - Prompt Engineering
-- Structured Output Enforcement using Pydantic
-- LLM-Powered Reasoning & Decision Making
-- Workflow Governance & Business Rule Enforcement
-- Execution Trace Monitoring
-- Application Logging & Operational Observability
-- Response Analytics & Quality Monitoring
-- Customer Intelligence Analytics
+- Structured Outputs (Pydantic)
+- LLM-Powered Reasoning
+- Workflow Governance
+- Execution Tracing & Monitoring
+- Application Logging
+- Analytics & Customer Profiling
 - AI Governance Concepts
-- Human-AI Interaction using Streamlit UI
+- Streamlit-Based User Interface
