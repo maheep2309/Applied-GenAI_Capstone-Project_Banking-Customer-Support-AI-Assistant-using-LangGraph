@@ -1,0 +1,45 @@
+2026-06-23 23:15:36,801 | INFO | UI Initialization | LangGraph Instance created
+2026-06-23 23:15:54,158 | INFO | UI Session | Customer Name=John Smith | Customer Email=john.smith@gmail.com | Thread ID=john_smith_john.smith@gmail.com | Session Started
+2026-06-23 23:16:14,187 | INFO | UI Graph | Invoking Graph....
+2026-06-23 23:16:16,632 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:16,669 | INFO | Classifier | LangGraph Memory Message Count (0 -> 2 -> 4 ...) = 0 | Previous AI Response=None | Intent=positive | Interaction=new | Resolution Confirmation=False | Reasoning=The customer expresses gratitude and appreciation for the support received. | Ticket ID=None | Ticket Format Valid=None
+2026-06-23 23:16:16,669 | INFO | Intent Router | Classified Intent=positive | Classified Interation Type=new | Classification Reasoning=The customer expresses gratitude and appreciation for the support received. | Resolution Confirmation=False
+2026-06-23 23:16:16,676 | INFO | Positive Agent | Ticket ID = None | No Ticket ID in User-query. Generic Thank-you response generated | (Deterministic Response)
+2026-06-23 23:16:21,360 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:23,816 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:23,832 | INFO | Response Generator | Intent=positive | Active Ticket ID=None | Previous Ticket ID=None | Workflow Ticket Action=no_ticket_reference | Previous Ticket Context Available=False | Latest ticket context loaded from database | Customer Issue Profile=The customer frequently inquires about the status of their tickets, particularly regarding unresolved issues with their debit card delivery and login problems with the bank's portal. There is a recurring theme of dissatisfaction related to the resolution process, especially when tickets are marked as resolved without confirmation from the customer. This indicates a need for better communication and follow-up on ongoing issues. | Customer Response Guidance=- Acknowledge the customer's previous frustrations regarding ticket resolutions.  
+- Provide clear and detailed updates on the status of their ongoing issues.  
+- Enhance empathy by recognizing the customer's potential concerns about delays.  
+- Personalize the communication by addressing the customer by name.  
+- Clarify next steps and expected timelines for resolution to improve customer understanding. | Customer Sensitivity=MEDIUM | Customer response generated | Response Generator Agent Response: Dear John Smith,
+
+Thank you for your kind words! We truly appreciate your feedback and are glad to hear that you find our support proactive.
+
+If you have any ongoing issues or need further assistance, please don’t hesitate to reach out. We are here to help you.
+
+Thank you for choosing us as your banking partner.
+2026-06-23 23:16:28,852 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:28,884 | INFO | LLM Judge | Workflow Ticket Action=no_ticket_reference | Previous Ticket Context Available=False | Intent Handling=10.0 | Workflow Compliance=10.0 | Customer Experience=9.0 | Groundedness=10.0 | Overall Score=9.8 | Judge Passed=True | Failed Parameters=[] | Reflection Count=0 | Judge Improvement Comments: Enhance the invitation for future communication by explicitly stating how the customer can reach out if they have further questions or concerns.
+2026-06-23 23:16:28,900 | INFO | Judge Router | Judge Passed=True | Reflection Count=0 | Failed Parameters=[]
+2026-06-23 23:16:48,855 | INFO | UI Graph | Invoking Graph....
+2026-06-23 23:16:51,162 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:51,179 | INFO | Classifier | LangGraph Memory Message Count (0 -> 2 -> 4 ...) = 2 | Previous AI Response=Dear John Smith,
+
+Thank you for your kind words! We truly appreciate your feedback and are glad to hear that you find our support proactive.
+
+If you have any ongoing issues or need further assistance, please don’t hesitate to reach out. We are here to help you.
+
+Thank you for choosing us as your banking partner. | Intent=positive | Interaction=new | Resolution Confirmation=False | Reasoning=The customer is saying goodbye, indicating a positive tone without confirming any issue resolution. | Ticket ID=None | Ticket Format Valid=None
+2026-06-23 23:16:51,180 | INFO | Intent Router | Classified Intent=positive | Classified Interation Type=new | Classification Reasoning=The customer is saying goodbye, indicating a positive tone without confirming any issue resolution. | Resolution Confirmation=False
+2026-06-23 23:16:51,183 | INFO | Positive Agent | Ticket ID = None | No Ticket ID in User-query. Generic Thank-you response generated | (Deterministic Response)
+2026-06-23 23:16:54,946 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:56,420 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:16:56,437 | INFO | Response Generator | Intent=positive | Active Ticket ID=None | Previous Ticket ID=None | Workflow Ticket Action=no_ticket_reference | Previous Ticket Context Available=False | Latest ticket context loaded from database | Customer Issue Profile=The customer frequently inquires about the status of their tickets, indicating a recurring pattern of needing updates on unresolved issues. There are also concerns regarding the resolution process, particularly when tickets are marked as resolved without confirmation from the customer. Additionally, the customer has expressed issues with logging into the Bank Customer Portal, highlighting a need for assistance with access-related problems. | Customer Response Guidance=Acknowledge the customer's previous concerns regarding ticket resolution. 
+Provide clear and detailed updates on the status of their current inquiries. 
+Enhance empathy by recognizing any frustration they may have experienced with previous interactions. 
+Clarify next steps and expected timelines for resolution to improve customer understanding. 
+Personalize the communication by addressing the customer by name. | Customer Sensitivity=MEDIUM | Customer response generated | Response Generator Agent Response: Thank you for your message, John Smith! We're glad to hear from you. If you have any questions or need assistance in the future, please don't hesitate to reach out. Have a wonderful day!
+2026-06-23 23:17:03,083 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-23 23:17:03,101 | INFO | LLM Judge | Workflow Ticket Action=no_ticket_reference | Previous Ticket Context Available=False | Intent Handling=9.5 | Workflow Compliance=9.5 | Customer Experience=9.5 | Groundedness=10.0 | Overall Score=9.6 | Judge Passed=True | Failed Parameters=[] | Reflection Count=0
+2026-06-23 23:17:03,109 | INFO | Judge Router | Judge Passed=True | Reflection Count=0 | Failed Parameters=[]
+2026-06-23 23:17:29,085 | INFO | UI Initialization | LangGraph Instance created
