@@ -16,7 +16,7 @@ To support governance and operational transparency, the application includes ded
 
 Overall, the project demonstrates how Agentic AI, workflow orchestration, customer intelligence, automated quality assurance and operational governance can be combined to create an intelligent banking support assistant capable of delivering personalized, accurate and continuously improving customer experiences.
 
-Agentic AI Concepts / Topics Covered
+Agentic AI Concepts / Topics Covered: -
 - Agentic AI Workflow Orchestration (LangGraph)
 - Multi-Agent Architecture
 - Intelligent Query Classification
